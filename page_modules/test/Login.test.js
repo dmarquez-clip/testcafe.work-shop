@@ -1,5 +1,5 @@
 import ProductPage from '../pages/Product'
-import LoginPage from '../pages/Loing'
+import LoginPage from '../pages/Login'
 import {CREDENTIALS} from '../data/Credentials'
 import {PAGE} from "../data/Constants";
 
