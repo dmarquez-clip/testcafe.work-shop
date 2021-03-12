@@ -1,0 +1,28 @@
+{
+  "name": "testcafe.work-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarquez-clip/testcafe.work-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^1.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dmarquez-clip/testcafe.work-shop/issues"
+  },
+  "homepage": "https://github.com/dmarquez-clip/testcafe.work-shop#readme"
+}
