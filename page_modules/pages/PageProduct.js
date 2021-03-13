@@ -1,11 +1,12 @@
 import {Selector, t} from 'testcafe'
 
 class ProductPage {
+  //Selectors
   constructor() {
     this.pageTitle = Selector('.product_label');
     this.item = Selector('.inventory_item');
   }
-
+//Generic methods
   async addItemToCart(itemToAdd) {
     try {
       await t.click(this.item().withText(itemToAdd).child('.pricebar').child(

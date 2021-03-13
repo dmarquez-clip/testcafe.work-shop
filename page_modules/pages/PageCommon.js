@@ -1,1 +1,1 @@
-import {Selector} from 'testcafe'class PageCommon {  constructor() {    this.menuBtn = Selector('.bm-burger-button');    this.shoppingCartBtn = Selector('#shopping_cart_container')  }}export default new PageCommon();
+import {Selector} from 'testcafe'class PageCommon {  //Selectors  constructor() {    this.menuBtn = Selector('.bm-burger-button');    this.shoppingCartBtn = Selector('#shopping_cart_container')  }}export default new PageCommon();
