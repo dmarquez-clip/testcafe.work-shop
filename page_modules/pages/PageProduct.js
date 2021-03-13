@@ -2,7 +2,7 @@ import {Selector, t} from 'testcafe'
 
 class ProductPage {
   constructor() {
-    this.pageTitle = Selector('div[class="app_logo"]');
+    this.pageTitle = Selector('.product_label');
     this.item = Selector('.inventory_item');
   }
 
