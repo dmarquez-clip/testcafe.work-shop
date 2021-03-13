@@ -1,6 +1,4 @@
-import dotenv from 'dotenv'
-
-dotenv.config()
+require('dotenv').config({path: '.env.credentials'})
 
 export const CREDENTIALS = {
   STANDAR_USER: {

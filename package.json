@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-all-chrome": "testcafe chrome ./page_modules/test/"
+    "test-all-chrome": "testcafe chrome ./page_modules/test/",
+    "test-login-chrome": "testcafe chrome ./page_modules/test/Login.test.js",
+    "test-ShopCar-chrome": "testcafe chrome ./page_modules/test/ShopCar.test.js"
   },
   "repository": {
     "type": "git",
