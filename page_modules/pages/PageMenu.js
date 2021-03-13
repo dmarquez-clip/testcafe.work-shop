@@ -1,0 +1,1 @@
+import {Selector, t} from 'testcafe'class MenuPage {  constructor() {    this.menuButton = Selector('.bm-burger-button');    this.logoutLink = Selector('#logout_sidebar_link');    this.carButton = Selector('#shopping_cart_container')  }  async logout() {    await t.click(this.menuButton)    await t.click(this.logoutLink)  }}export default new MenuPage();

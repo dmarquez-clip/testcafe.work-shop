@@ -1,0 +1,1 @@
+import {Selector} from 'testcafe'class PageShopCart {  constructor() {    this.titlePage = Selector('.subheader');  }}export default new PageShopCart();
