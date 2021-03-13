@@ -118,3 +118,4 @@ dist
 .idea/
 node_modules
 /screenshots/
+package-lock.json
