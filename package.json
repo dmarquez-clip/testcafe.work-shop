@@ -6,8 +6,9 @@
   "scripts": {
     "test-all-chrome": "testcafe chrome ./page_modules/test/",
     "test-login-chrome": "testcafe chrome ./page_modules/test/Login.test.js",
-    "test-ShoppingCart-chrome": "testcafe chrome page_modules/test/ShoppingCart.test.js",
-    "test-Checkout-chrome": "testcafe chrome page_modules/test/Checkout.test.js"
+    "test-shoppingCart-chrome": "testcafe chrome page_modules/test/ShoppingCart.test.js",
+    "test-checkout-chrome": "testcafe chrome page_modules/test/Checkout.test.js",
+    "test-overview-chrome": "testcafe chrome page_modules/test/Overview.test.js"
   },
   "repository": {
     "type": "git",
