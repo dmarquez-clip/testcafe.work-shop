@@ -7,8 +7,9 @@
     "test-all-chrome": "testcafe chrome ./page_modules/test/",
     "test-login-chrome": "testcafe chrome ./page_modules/test/Login.test.js",
     "test-shoppingCart-chrome": "testcafe chrome page_modules/test/ShoppingCart.test.js",
-    "test-checkout-chrome": "testcafe chrome page_modules/test/Checkout.test.js",
-    "test-overview-chrome": "testcafe chrome page_modules/test/Overview.test.js"
+    "test-sheckout-chrome": "testcafe chrome page_modules/test/Checkout.test.js",
+    "test:reports": "testcafe chrome ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%m`/report.html",
+    "test:reports-allBrowsers": "testcafe all ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`/report.html"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
     "testcafe": "^1.12.0"
   },
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "testcafe-reporter-html": "^1.4.6"
   },
   "bugs": {
     "url": "https://github.com/dmarquez-clip/testcafe.work-shop/issues"
