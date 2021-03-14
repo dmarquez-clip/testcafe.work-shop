@@ -1,4 +1,4 @@
-const dataSet = require('../../credentials.json')
+const dataSet = require('../../test_data/credentials.json')
 
 export const CREDENTIALS = {
   STANDAR_USER: {

@@ -120,4 +120,4 @@ node_modules
 /screenshots/
 package-lock.json
 /reports/
-credentials.json
+test_data/credentials.json

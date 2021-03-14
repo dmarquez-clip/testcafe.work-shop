@@ -1,1 +1,1 @@
-require('dotenv').config()export const PERSONAL_DATA = {  NAME: process.env.PERSONAL_NAME,  LAST_NAME: process.env.PERSONAL_LAST_NAME,  ZIP_CODE: process.env.PERSONAL_ZIP_CODE}
+const dataSet = require('../../test_data/personalData.json')export const PERSONAL_DATA = {  NAME: dataSet.Personal_Information.PERSONAL_LAST_NAME,  LAST_NAME: dataSet.Personal_Information.PERSONAL_LAST_NAME,  ZIP_CODE: dataSet.Personal_Information.PERSONAL_ZIP_CODE}
