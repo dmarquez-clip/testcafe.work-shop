@@ -11,9 +11,9 @@ class loginPage {
 
   //Generics methods
   async loginForm(username, password) {
-    await t.typeText(this.userNameField, username);
-    await t.typeText(this.passwordField, password);
-    await t.click(this.loginButton)
+    await t.typeText(this.userNameField, username)
+    .typeText(this.passwordField, password)
+    .click(this.loginButton)
   }
 }
 
