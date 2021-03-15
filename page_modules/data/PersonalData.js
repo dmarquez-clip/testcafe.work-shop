@@ -1,1 +1,1 @@
-const dataSet = require('../../test_data/personalData.json')export const PERSONAL_DATA = {  NAME: dataSet.Personal_Information.PERSONAL_LAST_NAME,  LAST_NAME: dataSet.Personal_Information.PERSONAL_LAST_NAME,  ZIP_CODE: dataSet.Personal_Information.PERSONAL_ZIP_CODE}
+export const PERSONAL_DATA = {  NAME: "Bruce",  LAST_NAME: "Wayne",  ZIP_CODE: "45890"}

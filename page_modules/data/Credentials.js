@@ -1,12 +1,12 @@
-const dataSet = require('../../test_data/credentials.json')
+require('dotenv').config()
 
 export const CREDENTIALS = {
   STANDAR_USER: {
-    USERNAME: dataSet.standar_user,
-    PASSWORD: dataSet.password
+    USERNAME: process.env.STANDAR_USER,
+    PASSWORD: process.env.PASSWORD
   }, INVALID_USER: {
-    USERNAME: dataSet.standar_user,
-    PASSWORD: dataSet.invalid_password
+    USERNAME: process.env.STANDAR_USER,
+    PASSWORD: process.env.INPASSWORD
   }
 
 }

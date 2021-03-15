@@ -15,6 +15,14 @@ class loginPage {
     .typeText(this.passwordField, password)
     .click(this.loginButton)
   }
+
+  async getErrorMessage() {
+    return await this.errorMessage.innerText
+  }
+
+  async loginButtonExit() {
+    return await this.loginButton.exists
+  }
 }
 
 export default new loginPage();

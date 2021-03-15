@@ -6,6 +6,7 @@ class ProductPage {
     this.pageTitle = Selector('.product_label');
     this.item = Selector('.inventory_item');
   }
+
 //Generic methods
   async addItemToCart(itemToAdd) {
     try {
@@ -16,6 +17,11 @@ class ProductPage {
     }
 
   }
+
+  async getPageTitle() {
+    return await this.pageTitle.innerText;
+  }
+
 }
 
 export default new ProductPage();

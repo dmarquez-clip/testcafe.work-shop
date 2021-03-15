@@ -1,1 +1,1 @@
-import {Selector} from 'testcafe';class PageFinish {  //Selectors  constructor() {    this.thanksMessage = Selector('.complete-header')  }}export default new PageFinish();
+import {Selector} from 'testcafe';class PageFinish {  //Selectors  constructor() {    this.thanksMessage = Selector('.complete-header')  }  async getPageTitle() {    return await this.thanksMessage.innerText  }}export default new PageFinish();

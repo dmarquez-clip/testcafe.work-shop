@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-all-chrome": "testcafe chrome ./page_modules/test/",
-    "test-login-chrome": "testcafe chrome ./page_modules/test/Login.test.js",
-    "test-shoppingCart-chrome": "testcafe chrome page_modules/test/ShoppingCart.test.js",
-    "test-sheckout-chrome": "testcafe chrome page_modules/test/Checkout.test.js",
+    "test:chrome": "testcafe chrome ./page_modules/test/",
+    "test:firefox": "testcafe firefox ./page_modules/test/",
+    "test:safari": "testcafe safari ./page_modules/test/",
     "test:reports": "testcafe chrome ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%m`/report.html",
     "test:reports-allBrowsers": "testcafe all ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`/report.html"
   },

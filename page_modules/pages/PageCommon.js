@@ -1,1 +1,1 @@
-import {Selector} from 'testcafe'class PageCommon {  //Selectors  constructor() {    this.menuBtn = Selector('.bm-burger-button');    this.shoppingCartBtn = Selector('#shopping_cart_container')  }}export default new PageCommon();
+import {Selector, t} from 'testcafe'class PageCommon {  //Selectors  constructor() {    this.menuBtn = Selector('.bm-burger-button');    this.shoppingCartBtn = Selector('#shopping_cart_container')  }  async clickShoppingCartBtn() {    await t.click(this.shoppingCartBtn)  }}export default new PageCommon();
