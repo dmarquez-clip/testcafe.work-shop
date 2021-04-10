@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:chrome": "testcafe chrome ./page_modules/test/Login.test.js",
+    "test:chrome": "testcafe chrome ./page_modules/test/",
     "test:firefox": "testcafe firefox ./page_modules/test/",
     "test:safari": "testcafe safari ./page_modules/test/",
     "test:reports": "testcafe chrome ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%m`/report.html",

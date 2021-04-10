@@ -3,9 +3,9 @@ require('dotenv').config()
 export const PAGE = {
   URL: process.env.PAGE_URL,
   PAGE_TITLES: {
-    PRODUCT: "Products",
-    YOUR_CART: "Your Cart",
-    OVERVIEW: "Checkout: Overview"
+    PRODUCT: "PRODUCTS",
+    YOUR_CART: "YOUR CART",
+    OVERVIEW: "CHECKOUT: OVERVIEW"
   },
   ERROR_MESSAGE: {
     LOGIN: {
