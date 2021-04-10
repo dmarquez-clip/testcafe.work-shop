@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:chrome": "testcafe chrome ./page_modules/test/",
+    "test:chrome": "testcafe chrome ./page_modules/test/Login.test.js",
     "test:firefox": "testcafe firefox ./page_modules/test/",
     "test:safari": "testcafe safari ./page_modules/test/",
     "test:reports": "testcafe chrome ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%m`/report.html",
-    "test:reports-allBrowsers": "testcafe all ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`/report.html"
+    "test:reports-allBrowsers": "testcafe all ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`/report.html",
+    "test:chrome-headless": "testcafe chrome:headless ./page_modules/test/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`/report.html"
   },
   "repository": {
     "type": "git",
