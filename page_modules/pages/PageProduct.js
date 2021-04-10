@@ -33,3 +33,5 @@ class ProductPage {
 }
 
 export default new ProductPage();
+
+
